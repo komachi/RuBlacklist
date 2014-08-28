@@ -1,0 +1,33 @@
+{
+  "antizapret_key": "",
+  "accounts": [
+    {
+      "template": "{{&url}} ({{ip}}) добавлен в реестр ({{org}}, {{{number}}})",
+      "template_removed": "{{&url}} ({{ip}}) удален из реестра",
+      "tokens": {
+        "consumer_key": "",
+        "consumer_secret": "",
+        "access_token": "",
+        "access_token_secret": ""
+      }
+    },
+    {
+      "template": "{{&url}} ({{ip}}) added to blacklist by {{org}} ({{{number}}})",
+      "template_removed": "{{&url}} ({{ip}}) was removed from blacklist",
+      "translate": {
+        "Генпрокуратура": "Prosecutor General",
+        "Мосгорсуд": "Moscow City Court",
+        "суд": "court",
+        "Роскомнадзор": "Roskomnadzor",
+        "Роспотребнадзор": "Rospotrebnadzor",
+        "ФСКН": "FSKN"
+      },
+      "tokens": {
+        "consumer_key": "",
+        "consumer_secret": "",
+        "access_token": "",
+        "access_token_secret": ""
+      }
+    }
+  ]
+}

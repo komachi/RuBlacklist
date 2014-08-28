@@ -1,0 +1,23 @@
+{
+  "name": "RuBlacklist",
+  "description": "Tweeting changes in Russian Internet blacklist in real time.",
+  "main": "rublacklist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/komachi/RuBlacklist.git"
+  },
+  "author": "Anton Nesterov",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/komachi/RuBlacklist/issues"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "mustache": "^0.8.2",
+    "needle": "^0.7.8",
+    "twit": "^1.1.18"
+  }
+}
